@@ -1,4 +1,59 @@
 
-.my-definition {
-    font-size: 1.2em;
+@media (prefers-color-scheme: light) {
+	:root {
+        --terminal-background-1: black;
+        --terminal-background-2: rgb(26, 25, 25);
+		--page-background: #cecece;
+		--page-foreground: #131313;
+		--link: rgb(0, 102, 255);
+		--link-clicked: rgb(153, 121, 51);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+        --terminal-background-1: #0f0f0f;
+        --terminal-background-2: rgb(43, 41, 41);
+		--page-background: #131313;
+		--page-foreground: #cecece;
+		--link: rgb(0, 255, 157);
+		--link-clicked: rgb(153, 121, 51);
+	}
+}
+
+body {
+	background: var(--page-background);
+	color: var(--page-foreground);
+	font-family: monospace;
+	max-width: 40em;
+}
+
+h1 {
+	margin-left: 1em;
+}
+
+h2 {
+    margin-top: 1em;
+}
+
+h2:before {
+    content: "$ ";
+}
+
+.terminal {
+	border-width: 5px;
+	border-style: solid;
+	border-color: var(--page-foreground);
+    background: linear-gradient(var(--terminal-background-1), var(--terminal-background-2));
+	border-radius: 60px;
+	margin: 1em;
+	padding: 2em;
+}
+
+a {
+	color: var(--link);
+}
+
+a:visited {
+	color: var(--link-clicked);
 }
