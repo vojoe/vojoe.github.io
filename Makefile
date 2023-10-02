@@ -1,6 +1,6 @@
 
 dependencies:
-	sudo gem install jekyll bundler
+	# sudo gem install jekyll bundler # dont do this in codespace
 	bundle
 
 build:
