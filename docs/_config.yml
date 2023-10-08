@@ -1,5 +1,6 @@
 plugins:
   - jekyll-relative-links
+  - jekyll-titles-from-headings
   - jekyll-feed
   - jekyll-seo-tag
 

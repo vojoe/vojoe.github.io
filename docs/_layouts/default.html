@@ -24,8 +24,14 @@
   </head>
   
   <body>
-    <main">
+    <main>
       <div class="terminal">
+        
+        <div style="display: flex; justify-content: flex-end;">
+          <div style="width: 20ch;">
+            <a href="{{ "/" | relative_url }}">{{ "home/vojoe" }}</a>{{ page.dir }}
+          </div>
+        </div>
         {{ content }}
       </div>
     </main>

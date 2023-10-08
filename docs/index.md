@@ -2,30 +2,22 @@
 
 ---
 
-# vojoe's place
-
-## hello
-
-* [another file](./AnotherDir/another_file.md)
-* [fioiewf-two](./not-there)
-* three
+# johannesvogel.dev
 
 
-## this is another title
 
-this is another paragraph
+## vojoe's log
+
+* [2023-10-08-about-this](./log/about-this.md)
+* [2023-10-07-about-that](./log/about-that.md)
+* [more...](./log/index.md)
 
 
-## this is a third title
+## vojoe's realm
 
-this is another paragraph this is another paragraph this is another paragraph more than 80
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
-this is another paragraph this is another paragraph this is another paragraph
+* [vojoe's realm](./realm/index.md)
+
+
+## vojoe's lab
+
+* [vojoe's lab](./lab/index.md)

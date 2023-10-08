@@ -1,7 +1,7 @@
 ---
 ---
 
-# Another File
+# Dummy Page
 
 Hey Some Code
 
