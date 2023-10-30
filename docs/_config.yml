@@ -4,10 +4,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+
+
+
 defaults:
   -
     scope:
       path: "" # an empty string here means all files in the project
     values:
+      permalink: /:title:output_ext
       layout: "default"
+      
 
