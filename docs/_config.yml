@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      permalink: /:title:output_ext
+      permalink: /:basename:output_ext
       layout: "default"
       
 

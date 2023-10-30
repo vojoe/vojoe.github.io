@@ -29,7 +29,8 @@
         
         <div style="display: flex; justify-content: flex-end;">
           <div style="width: 20ch;">
-            <a href="{{ "/" | relative_url }}">{{ "home/vojoe" }}</a>{{ page.dir }}
+            {% assign path_parts = page.path | split: "/" %}
+            <a href="{{ "/" | relative_url }}">{{ "home/vojoe/" }}</a>{{ page.path | remove: path_parts[-1]}}
           </div>
         </div>
         {{ content }}
