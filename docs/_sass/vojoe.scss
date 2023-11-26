@@ -31,8 +31,6 @@ h2:before {
 
 .terminal {
     border-width: 1ch;
-    border-style: solid;
-    border-color: var(--page-foreground);
     background: linear-gradient(var(--terminal-background-1), var(--terminal-background-2));
     border-radius: 2ch;
     margin: 1ch;
