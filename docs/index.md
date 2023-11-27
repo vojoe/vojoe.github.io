@@ -1,25 +1,26 @@
 ---
 ---
 
-# vojoe's realm
+# johannesvogel.dev
 
-* Topic Snippets
-* Topic ???
+code and stuff...
 
 
-## vojoe's log
+## log
 
 * [2023-10-08-about-this](./log/about-this.md)
 * [2023-10-07-about-that](./log/about-that.md)
 * [more...](./log/log.md)
 
 
-## vojoe's realm
+## an evening or two
 
-* [vojoe's realm](./realm/realm.md)
+Short intros to topics I spent an evening or two...
+
+* [vojoe's realm](./shorts/shorts.md)
 
 
-## vojoe's lab
+## me
 
-* [vojoe's lab](./lab/lab.md)
-
+* [github](https://github.com/vojoe)
+* [about](./about.md)
