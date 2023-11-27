@@ -1,10 +1,7 @@
 ---
 ---
 
-# johannesvogel.dev
-
-code and stuff...
-
+# code and stuff
 
 ## log
 
@@ -17,7 +14,7 @@ code and stuff...
 
 Short intros to topics I spent an evening or two...
 
-* [vojoe's realm](./shorts/shorts.md)
+* [shorts](./shorts/shorts.md)
 
 
 ## me
